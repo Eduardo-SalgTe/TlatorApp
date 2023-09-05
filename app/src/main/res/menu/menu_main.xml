@@ -1,0 +1,30 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_button"
+        android:title="@string/header_inicio"
+        app:showAsAction="always"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/action_button2"
+        android:title="@string/header_estadistica"
+        app:showAsAction="always"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/action_button3"
+        android:title="@string/header_partido"
+        app:showAsAction="always"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/action_button4"
+        android:title="@string/header_torneo"
+        app:showAsAction="always"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/action_menu"
+        android:icon="@drawable/menu"
+        android:title="-"
+        app:showAsAction="always" />
+
+</menu>

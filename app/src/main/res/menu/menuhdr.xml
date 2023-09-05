@@ -1,0 +1,14 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mn_hdr_a"
+        android:title="@string/header_inicio"
+        app:showAsAction="always"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/mn_hdr_img"
+        android:icon="@drawable/right"
+        android:title="-"
+        app:showAsAction="always" />
+
+</menu>

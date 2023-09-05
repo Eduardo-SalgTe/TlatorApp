@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">v1.0</string>
+    <string name="main_h1">TLATOR</string>
+    <string name="main_h2">Like has to be!</string>
+    <string name="main_tv_logo">CONADE</string>
+    <string name="main_sub">Secretario de educacion publica</string>
+    <string name="main_button">Continuar</string>
+
+    <string name="lobby_h1">Bienvenido</string>
+    <string name="lobby_req">Selecciona una opcion para iniciar sesion</string>
+    <string name="lobby_btn_guest">Invitado</string>
+    <string name="lobby_btn_login">Iniciar sesion</string>
+    <string name="lobby_btn_singup">Registrar</string>
+
+    <string name="singup_h1">Registrar usuario nuevo</string>
+    <string name="singup_tv_a">Nombre:</string>
+    <string name="singup_tv_b">Correo:</string>
+    <string name="singup_tv_c">Matricula:</string>
+    <string name="singup_tv_d">Contrasena:</string>
+    <string name="singup_btn_singup">Registrar</string>
+
+    <string name="login_h1">Iniciar sesion</string>
+    <string name="login_tv_usr">Matricula:</string>
+    <string name="login_tv_psw">Contrasena:</string>
+    <string name="login_btn_login">Ingresar</string>
+    <string name="login_tv_waitting">...</string>
+
+    <string name="header_inicio">inicio</string>
+    <string name="header_partido">partidos</string>
+    <string name="header_estadistica">estadisticas</string>
+    <string name="header_torneo">torneos</string>
+
+    <string name="sub_inicio_a">noticias</string>
+    <string name="sub_inicio_b">social media</string>
+    <string name="sub_partido_a">textoA</string>
+    <string name="sub_partido_b">textoB</string>
+    <string name="sub_est_a">jornada</string>
+    <string name="sub_est_b">opcional</string>
+    <string name="sub_torneo_a">jornada A</string>
+    <string name="sub_torneo_b">jornada B</string>
+
+    <string name="desp_perfil">mi cuenta</string>
+    <string name="desp_notificaciones">notificaciones</string>
+    <string name="desp_compartir">compartir</string>
+    <string name="desp_tutorial">tutorial</string>
+    <string name="desp_configuracion">configuracion</string>
+
+    <string name="torneo_new_name">Nombre e.g(ISC - APERTURA 22)</string>
+    <string name="torneo_new_apertura">e.g(2022.2)</string>
+    <string name="torneo_new_registrar">Registrar Torneo</string>
+    <string name="torneo_equipos">Equipos del torneo seleccionado</string>
+
+
+    <string name="icon_right">></string>
+</resources>

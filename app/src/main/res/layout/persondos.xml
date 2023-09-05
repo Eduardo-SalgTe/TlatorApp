@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/person"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTlator"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/per_toolb_a"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/header_imgbtn_a"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:background="#003700B3"
+            android:outlineAmbientShadowColor="#003700B3"
+            android:outlineSpotShadowColor="#003700B3"
+            app:srcCompat="@drawable/menu" />
+
+        <ImageView
+            android:id="@+id/header_img_a"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:background="#003700B3"
+            android:outlineAmbientShadowColor="#003700B3"
+            android:outlineSpotShadowColor="#003700B3"
+            app:srcCompat="@drawable/headii" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/per_toolb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTlator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:titleTextColor="@color/white">
+
+        <ImageButton
+            android:id="@+id/toolb_imgbtn_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="#003700B3"
+            android:outlineAmbientShadowColor="#003700B3"
+            android:outlineSpotShadowColor="#003700B3"
+            app:srcCompat="@drawable/users" />
+
+        <Button
+            android:id="@+id/toolb_btn_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="#003700B3"
+            android:shadowColor="#003700B3"
+            android:text="@string/lobby_req"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.AppBarLayout>

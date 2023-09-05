@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+
+    android:textSize="18sp"
+    android:padding="16dp"
+    android:background="@drawable/list_torneo"
+    android:textColor="#000000"
+    android:fontFamily="sans-serif"
+    android:letterSpacing="0.05"
+    android:textAllCaps="true"
+    android:textStyle="bold"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" />

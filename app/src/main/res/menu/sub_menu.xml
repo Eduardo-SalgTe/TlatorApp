@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/submenu_item1"
+        android:title="Mi perfil" />
+    <item
+        android:id="@+id/submenu_item2"
+        android:title="Notificaciones" />
+    <item
+        android:id="@+id/submenu_item3"
+        android:title="compartir" />
+    <item
+        android:id="@+id/submenu_item4"
+        android:title="tutorial" />
+    <item
+        android:id="@+id/submenu_item5"
+        android:title="favoritos" />
+    <item
+        android:id="@+id/submenu_item6"
+        android:title="preferencias" />
+</menu>
